@@ -1,6 +1,3 @@
-$("#get").click(get);
-$("#set").click(set);
-$("#save").click(save);
 
 function get() {
     var settingName = $("#settingName").val();
@@ -26,3 +23,13 @@ function save() {
         }
     });
 }
+
+Office.onReady(function() {
+    // Office is ready
+    $(document).ready(function () {
+        // The document is ready
+        $("#get").click(get);
+        $("#set").click(set);
+        $("#save").click(save);
+    });
+});
