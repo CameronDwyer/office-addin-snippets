@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title>Outlook Roaming Settings</title>
+
+  <!-- Office JavaScript API -->
+  <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+  <!-- For more information on Office UI Fabric, visit https://developer.microsoft.com/fabric. -->
+  <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css"/>
+
+  <!-- JQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="ms-font-m">
+    <section class="ms-font-m">
+        <p>This sample shows how to set, save, and get add-in properties that can be accessed the next time the add-in is
+            opened.</p>
+    </section>
+    
+    <section class="samples ms-font-m">
+        <h3>Try it out</h3>
+        <div class="ms-TextField">
+            <label class="ms-Label">Setting name:</label>
+            <input id="settingName" class="ms-TextField-field" type="text" value="MyOutlookSetting" placeholder="">
+        </div>
+            <div class="ms-TextField">
+                <label class="ms-Label">Setting value:</label>
+                <input id="settingValue" class="ms-TextField-field" type="text" value="Test Value" placeholder="">
+        </div>
+        <button id="set" class="ms-Button">
+            <div class="ms-Button-label">Set</div>
+        </button>
+        <button id="get" class="ms-Button">
+            <div class="ms-Button-label">Get</div>
+        </button>
+        <button id="save" class="ms-Button">
+            <div class="ms-Button-label">Save all</div>
+        </button>
+    </section>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
