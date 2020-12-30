@@ -13,15 +13,15 @@
 
   <!--Version. Updates from the store only get triggered if there is a version change. -->
   <Version>1.0.0.0</Version>
-  <ProviderName>Cameron Dwyer/ProviderName>
+  <ProviderName>Cameron Dwyer</ProviderName>
   <DefaultLocale>en-AU</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="Outlook Roaming Settings" />
-  <Description DefaultValue="Use to observe roaming setting behaviour across Outlook hosts and in Shared & Delegate mailbox scenarios"/>
+  <Description DefaultValue="Use to observe roaming setting behaviour across Outlook hosts and in Shared and Delegate mailbox scenarios"/>
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
   <IconUrl DefaultValue="https://github.com/CameronDwyer/office-addin-snippets/Outlook/RoamingSettings/assets/icon-32.png" />
-  <HighResolutionIconUrl DefaultValue="https://github.com/CameronDwyer/office-addin-snippets/Outlook/RoamingSettings/assets/icon-80.png.png"/>
+  <HighResolutionIconUrl DefaultValue="https://github.com/CameronDwyer/office-addin-snippets/Outlook/RoamingSettings/assets/icon-80.png"/>
 
   <!--If you plan to submit this add-in to the Office Store, uncomment the SupportUrl element below-->
   <!-- <SupportUrl DefaultValue="[Insert the URL of a page that provides support information for the app]" /> -->
